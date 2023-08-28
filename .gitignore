@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/teste2/public/storage
+/teste3/public/storage
+/teste2/storage/*.key
+/teste3/storage/*.key
+/teste2/vendor
+/teste3/vendor
+/teste2/.env
+/teste3/.env
+/teste2/.env.backup
+/teste3/.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

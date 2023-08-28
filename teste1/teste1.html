@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teste1</title>
+</head>
+<body>
+<div id="response"></div>
+</body>
+
+
+<script>
+    getCep()
+
+    function getCep(){
+        fetch('https://viacep.com.br/ws/30130-003/json/')
+        .then((resp) => resp.json())
+        .then(function(data) {
+            document.querySelector("#response").innerHTML = JSON.stringify(data);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+    }
+
+</script>
+
+</html>
